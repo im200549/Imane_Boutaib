@@ -1,20 +1,20 @@
 
         /* Custom Properties */
         :root {
-            --primary: #030ac2;
+            --primary: #4b0275;
             --background: #f8fafc;
             --surface: #ffffff;
             --text: #1e293b;
-            --shadow: rgba(149, 157, 165, 0.2);
+            --shadow: rgba(19, 20, 21, 0.2);
             --transition: all 0.3s ease;
         }
 
         [data-theme="dark"] {
-            --primary: #818cf8;
-            --background: #0f172a;
-            --surface: #1e293b;
+            --primary: #4b0275;
+            --background: #0A0A0A;
+            --surface: #171717;
             --text: #f8fafc;
-            --shadow: rgba(0, 0, 0, 0.3);
+            --shadow: rgba(255, 255, 255, 0.3);
         }
 
         /* Reset & Base Styles */
@@ -128,14 +128,14 @@
         }
 
         /* Project Cards */
-        .projects-grid {
+.projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
 
-        .project-card {
+.project-card {
             background: var(--surface);
             border-radius: 15px;
             padding: 1.5rem;
@@ -145,19 +145,19 @@
             cursor: pointer;
         }
 
-        .project-card:hover {
+.project-card:hover {
             transform: translateY(-5px);
         }
 
-        .project-image {
+.project-image {
             width: 100%;
             height: 200px;
-            border-radius: 10px;
+            border-radius: 5px;
             overflow: hidden;
             margin-bottom: 1rem;
         }
 
-        .project-image img {
+.project-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -369,7 +369,7 @@
             margin-top: 1rem;
         }
 
-        .author-image {
+.author-image {
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -377,8 +377,26 @@
             overflow: hidden;
         }
 
-        .author-image img {
+.author-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
+.software-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+          }
+          
+.software-icons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            transition: transform 0.3s;
+          }
+          
+.software-icons img:hover {
+            transform: scale(1.1);
+          }

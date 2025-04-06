@@ -53,19 +53,19 @@ themeToggle.addEventListener('click', () => {
 // Dynamic Project Cards
 const projects = [
     {
-        title: 'E-Commerce Platform',
-        description: 'A full-stack e-commerce solution with React and Node.js',
-        image: 'https://picsum.photos/400/300?random=1'
+        title: 'THE Golden Restaurant',
+        description: 'A modern,responsive website for an elegant dining experience with menu and reservation features',
+        image: 'projet-img/resto-projet.png'
     },
     {
-        title: 'Social Media Dashboard',
-        description: 'Real-time analytics dashboard with data visualization',
-        image: 'https://picsum.photos/400/300?random=2'
+        title: 'Beauty&Glam website',
+        description: 'A stylish and modern website to showcase professional makeup looks, services, and booking options',
+        image: 'projet-img/makeup.jpg'
     },
     {
-        title: 'Task Management App',
-        description: 'Collaborative task management system with real-time updates',
-        image: 'https://picsum.photos/400/300?random=3'
+        title: 'TechnoStore E-commerce Platform',
+        description: 'A fully functional e-commerce website for selling smartphones, headphones, and accessories with secure checkout and responsive design',
+        image: 'projet-img/etrade.jpg'
     }
 ];
 
@@ -84,12 +84,16 @@ projects.forEach(project => {
 
 // Dynamic Skills
 const skills = [
+    { name: 'HTML5', icon: 'fab fa-html5' },
+    { name: 'CSS3', icon: 'fab fa-css3-alt' },
     { name: 'JavaScript', icon: 'fab fa-js' },
     { name: 'React', icon: 'fab fa-react' },
     { name: 'Node.js', icon: 'fab fa-node-js' },
-    { name: 'HTML5', icon: 'fab fa-html5' },
-    { name: 'CSS3', icon: 'fab fa-css3-alt' },
-    { name: 'Python', icon: 'fab fa-python' }
+    { name: 'Python', icon: 'fab fa-python' },
+    { name: 'Github', icon: 'fab fa-github' },
+    { name: 'Wordpress', icon: 'fab fa-wordpress' },
+    { name: 'Bootstrap', icon: 'fab fa-bootstrap' },
+
 ];
 
 const skillsGrid = document.querySelector('.skills-grid');
