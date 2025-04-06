@@ -55,17 +55,17 @@ const projects = [
     {
         title: 'THE Golden Restaurant',
         description: 'A modern,responsive website for an elegant dining experience with menu and reservation features',
-        image: 'projet-img/resto-projet.png'
+        image: 'resto-projet.png'
     },
     {
         title: 'Beauty&Glam website',
         description: 'A stylish and modern website to showcase professional makeup looks, services, and booking options',
-        image: 'projet-img/makeup.jpg'
+        image: 'makeup.jpg'
     },
     {
         title: 'TechnoStore E-commerce Platform',
         description: 'A fully functional e-commerce website for selling smartphones, headphones, and accessories with secure checkout and responsive design',
-        image: 'projet-img/etrade.jpg'
+        image: 'etrade.jpg'
     }
 ];
 
