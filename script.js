@@ -35,7 +35,7 @@ particlesJS('particles-js', {
 
 // Initialize Typed.js
 new Typed('.typed-text', {
-    strings: ['Emane BOUTIB', 'a Developer', 'a Designer', 'a Problem Solver'],
+    strings: ['Emane', 'a Frontend Developer', 'Backend Developer', 'a Problem Solver'],
     typeSpeed: 50,
     backSpeed: 30,
     loop: true
@@ -88,8 +88,8 @@ const skills = [
     { name: 'CSS3', icon: 'fab fa-css3-alt' },
     { name: 'JavaScript', icon: 'fab fa-js' },
     { name: 'React', icon: 'fab fa-react' },
-    { name: 'Node.js', icon: 'fab fa-node-js' },
-    { name: 'Python', icon: 'fab fa-python' },
+    // { name: 'Node.js', icon: 'fab fa-node-js' },
+    // { name: 'Python', icon: 'fab fa-python' },
     { name: 'Github', icon: 'fab fa-github' },
     { name: 'Wordpress', icon: 'fab fa-wordpress' },
     { name: 'Bootstrap', icon: 'fab fa-bootstrap' },
