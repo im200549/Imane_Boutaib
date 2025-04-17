@@ -87,9 +87,11 @@ const skills = [
     { name: 'HTML5', icon: 'fab fa-html5' },
     { name: 'CSS3', icon: 'fab fa-css3-alt' },
     { name: 'JavaScript', icon: 'fab fa-js' },
+    { name: 'Php', icon: 'fas fa-code' },
+
     { name: 'React', icon: 'fab fa-react' },
     // { name: 'Node.js', icon: 'fab fa-node-js' },
-    // { name: 'Python', icon: 'fab fa-python' },
+   
     { name: 'Github', icon: 'fab fa-github' },
     { name: 'Wordpress', icon: 'fab fa-wordpress' },
     { name: 'Bootstrap', icon: 'fab fa-bootstrap' },
